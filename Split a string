@@ -1,0 +1,16 @@
+
+package split.a.string;
+
+public class SplitAString {
+
+    public static void main(String[] args) {
+        
+        String str = "Welcome to Bangladesh and i love my country";
+        String [] rom = str.split(" ", 8);
+ 
+        for (String a : rom)
+            System.out.println(a);
+
+    }
+    
+}
